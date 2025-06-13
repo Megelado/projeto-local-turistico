@@ -1,14 +1,24 @@
 * {
-    background-color: #F5F4F0;
-    font-family: "Open Sans", sans-serif;
-    color: #333333;
-}
-
-:root {
+    
     margin: 0;
     padding: 0;
 }
 
+:root {
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+    line-height: 150%;
+}
+
+#page {
+    box-sizing: border-box;
+    width: 800px;
+    padding: 24px;
+    background-color: #F5F4F0;
+    border-radius: 24px;
+    margin: 48px auto 28px;
+}
 
 .headline {
     font-size: 16px;
@@ -74,6 +84,13 @@ main div img {
     height: 375px;
     object-fit: cover;
     margin-top: 44px;
+}
+
+
+
+ul {
+  padding-left: 0;
+  margin-left: 0;
 }
 
 #blue {
