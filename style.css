@@ -1,7 +1,7 @@
 * {
-    
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -113,6 +113,10 @@ ul {
     font-weight: bold;
 }
 
+ul {
+    padding-left: 20px;
+}
+
 ul li::marker {
     color: #333333;
 }
@@ -126,3 +130,4 @@ footer img {
     width: auto;
     vertical-align: middle;
 }
+
